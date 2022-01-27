@@ -1,12 +1,17 @@
 * {
-
     margin: 0;
     padding: 0;
 }
 
+/* Header */
+
 .header {
     padding-top: 57px;
+    font-style: normal;
+    font-weight: normal;
     background: url(/img/header-bg.png) no-repeat center top / cover;
+    color: white;
+
 }
 
 .container {
@@ -26,34 +31,60 @@
 
 .menu li {
     margin-right: 40px;
-
     list-style-type: none;
-    font-family: Anton;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 21px;
-    /* identical to box height */
-
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: white;
+
 }
 
 .menu {
     display: flex;
-
 }
 
 .tel {
     margin-left: auto;
     text-decoration: none;
     font-style: 17px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 17px;
     line-height: 26px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-
+    color: white;
 }
+
+.burning_man {
+    padding-top: 216px;
+    padding-bottom: 322px;
+}
+
+.burning_man_p {
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    /* color: white; */
+}
+
+.burning_man_h1 {
+    font-size: 100px;
+    line-height: 151px;
+    text-transform: uppercase;
+}
+
+.btn {
+    width: 238px;
+    display: block;
+    border: 1px solid;
+    padding: 18px 23px 18px 23px;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 19px;
+}
+
+/* Header */
