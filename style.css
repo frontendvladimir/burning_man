@@ -88,3 +88,24 @@
 }
 
 /* Header */
+
+/*  Section About */
+
+.container h1 {
+    margin-top: 120px;
+
+    font-size: 50px;
+    line-height: 75px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.about {
+    display: flex;
+    margin-top: 56px;
+}
+
+.about_description {
+    margin-top: 19px;
+}
