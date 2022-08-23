@@ -15,6 +15,7 @@
 }
 
 .container {
+    font-family: 'Anton', sans-serif;
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -64,13 +65,14 @@
     line-height: 45px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    /* color: white; */
 }
 
 .burning_man_h1 {
     font-size: 100px;
     line-height: 151px;
     text-transform: uppercase;
+    font-weight: 400;
+
 }
 
 .btn {
@@ -106,6 +108,24 @@
     margin-top: 56px;
 }
 
+.about_content h3 {
+    font-size: 25px;
+    
+}
+
 .about_description {
-    margin-top: 19px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+    text-align: justify;
+    margin-right: 36px;
+}
+
+.gallery {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 68px;
 }
